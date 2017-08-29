@@ -11,6 +11,7 @@ makeBlobDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
   // slideUP on cli
   // this.$node.slideUp();
+  $('.blobDancer').animate({left: 100}, 1000);
 };
 
 

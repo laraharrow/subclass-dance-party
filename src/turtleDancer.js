@@ -1,7 +1,7 @@
 var makeTurtleDancer = function(top, left, timeBetweenSteps) {
   makeDancer.apply(this, arguments);
   this.$node = $('<span class="turtleDancer"></span>');
-  this.setPosition(top, left);
+  this.setPosition(600, left);
   
 };
 
@@ -12,5 +12,5 @@ makeTurtleDancer.prototype.step = function() {
   
   makeDancer.prototype.step.call(this);
   
-  this.$node.toggle();
+  // this.$node.toggle();
 };

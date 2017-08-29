@@ -24,8 +24,8 @@ $(document).ready(function() {
     // make a dancer with a random position
 
     var dancer = new dancerMakerFunction(
-      $('body').height() * Math.random(),
-      $('body').width() * Math.random(),
+      $('body').height()/1.8,
+      $('body').width()/2.2,
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
@@ -40,6 +40,11 @@ $(document).ready(function() {
       
       dancer.setPosition(a, b);
     });
-    // alert(JSON.stringify(window.dancers));
   });
+  
+  $('.blobDancer').on('click', function(event) {
+    console.log(this);
+    console.log(this.$node);
+    // this.$node.slideUp();
+   });
 });
