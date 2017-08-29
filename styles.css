@@ -9,37 +9,43 @@ body {
 }
 
 body, a:link, a:visited, a:active {
-  color: lightblue;
+  style: none;
+  color: green;
 }
 
-.title, .addDancerButton {
+.title, .addDancerButton, .lineup {
   padding: 5px 12px;
   float: right;
 }
 
 .topbar {
   height: 32px;
-  background-color: #555;
+  /*background-color: #555;*/
 }
 
 .title {
-  background-color: #777;
+  /*background-color: #777;*/
+  font-family: 'Baloo Bhaijaan';
+  font-size: 20px;
+  color: lime;
+  position: center;
 }
+
 
 .blinkyDancer {
   content:url("http://randomacc.net/system/reviews/tmnt-fotfc-turtle.gif-c200");
-  height: auto; 
-  width: auto; 
-  max-width: 5000px; 
+  height: auto;
+  width: auto;
+  max-width: 5000px;
   max-height: 5000px;
   position: absolute;
 }
 
 .blobDancer {
   content:url("http://img80.laughinggif.com/pic/HTTPS9tZWRpYS5naXBoeS5jb20vbWVkaWEvN3FXQ1UwNURRVXFNby9naXBoeS5naWYlog.gif");
-  height: auto; 
-  width: auto; 
-  max-width: 250px; 
+  height: auto;
+  width: auto;
+  max-width: 250px;
   max-height: 250px;
   position: absolute;
 }
