@@ -29,10 +29,17 @@ $(document).ready(function() {
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
-    window.dancers.push(dancer.$node);
+    window.dancers.push(dancer);
   });
   
   $('.lineup').on('click', function(event) {
-    alert(window.dancers);
+    var horizontal = 150;
+    window.dancers.forEach(dancer => {
+      var a = dancer.top = 760;
+      var b = dancer.left = horizontal += 150;
+      
+      dancer.setPosition(a, b);
+    });
+    // alert(JSON.stringify(window.dancers));
   });
 });

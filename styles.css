@@ -26,7 +26,7 @@ body, a:link, a:visited, a:active {
   background-color: #777;
 }
 
-.dancer {
+.blinkyDancer {
   content:url("http://randomacc.net/system/reviews/tmnt-fotfc-turtle.gif-c200");
   height: auto; 
   width: auto; 
@@ -45,6 +45,10 @@ body, a:link, a:visited, a:active {
 }
 
 .turtleDancer {
-  content:url("http://49.media.tumblr.com/72d6b9728fa7483b29a77367de2e246f/tumblr_o1ydbrMwhr1rl04amo1_400.gif");
+  content:url("https://media.giphy.com/media/aL6JAYyRuNsXe/giphy.gif");
   position: absolute;
+}
+
+span .turtleDancer {
+  position: left;
 }

@@ -8,10 +8,9 @@ makeBlobDancer.prototype = Object.create(makeDancer.prototype);
 makeBlobDancer.prototype.constructor = makeBlobDancer;
 
 makeBlobDancer.prototype.step = function() {
-  
   makeDancer.prototype.step.call(this);
-  
-  this.$node.toggle();
+  // slideUP on cli
+  // this.$node.slideUp();
 };
 
 
