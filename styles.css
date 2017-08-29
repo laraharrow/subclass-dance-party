@@ -27,13 +27,24 @@ body, a:link, a:visited, a:active {
 }
 
 .dancer {
-  border: 10px solid red;
-  border-radius: 10px;
+  content:url("http://randomacc.net/system/reviews/tmnt-fotfc-turtle.gif-c200");
+  height: auto; 
+  width: auto; 
+  max-width: 5000px; 
+  max-height: 5000px;
   position: absolute;
 }
 
 .blobDancer {
-  border: 10px solid blue;
-  border-radius: 10px;
+  content:url("http://img80.laughinggif.com/pic/HTTPS9tZWRpYS5naXBoeS5jb20vbWVkaWEvN3FXQ1UwNURRVXFNby9naXBoeS5naWYlog.gif");
+  height: auto; 
+  width: auto; 
+  max-width: 250px; 
+  max-height: 250px;
+  position: absolute;
+}
+
+.turtleDancer {
+  content:url("http://49.media.tumblr.com/72d6b9728fa7483b29a77367de2e246f/tumblr_o1ydbrMwhr1rl04amo1_400.gif");
   position: absolute;
 }
