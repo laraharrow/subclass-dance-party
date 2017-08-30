@@ -35,8 +35,8 @@ body, a:link, a:visited, a:active {
   content:url("https://static.giantbomb.com/uploads/original/15/155548/2482259-splinter1.png");
   height: auto;
   width: auto;
-  max-width: 5000px;
-  max-height: 5000px;
+  max-width: 250px;
+  max-height: 250px;
   position: absolute;
 }
 

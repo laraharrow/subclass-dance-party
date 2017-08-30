@@ -24,8 +24,8 @@ $(document).ready(function() {
     // make a dancer with a random position
 
     var dancer = new dancerMakerFunction(
-      $('body').height()/1.8,
-      $('body').width()/2.2,
+      $('body').height() * Math.random(),
+      $('body').width() * Math.random(),
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
@@ -35,16 +35,22 @@ $(document).ready(function() {
   $('.lineup').on('click', function(event) {
     var horizontal = 150;
     window.dancers.forEach(dancer => {
-      var a = dancer.top = 760;
+      var a = dancer.top = 650;
       var b = dancer.left = horizontal += 150;
       
       dancer.setPosition(a, b);
+      setTimeout(function() {
+        $('.blobDancer').slideUp();
+      }, 2000);
+      setTimeout(function() {
+        $('.turtleDancer').slideUp();
+      }, 3000);
+      setTimeout(function() {
+        $('.blinkyDancer').slideUp();
+      }, 4000);
+      
     });
   });
   
-  $('.blobDancer').on('click', function(event) {
-    console.log(this);
-    console.log(this.$node);
-    // this.$node.slideUp();
-   });
+  
 });
