@@ -9,7 +9,6 @@ body {
 }
 
 body, a:link, a:visited, a:active {
-  style: none;
   color: green;
 }
 
@@ -33,7 +32,7 @@ body, a:link, a:visited, a:active {
 
 
 .blinkyDancer {
-  content:url("http://randomacc.net/system/reviews/tmnt-fotfc-turtle.gif-c200");
+  content:url("https://static.giantbomb.com/uploads/original/15/155548/2482259-splinter1.png");
   height: auto;
   width: auto;
   max-width: 5000px;
